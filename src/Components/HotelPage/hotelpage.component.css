@@ -1,0 +1,9 @@
+.hotel-page {
+    width: 950px;
+    background-color: #ebeced;
+    margin: 0 auto;
+    -webkit-box-shadow: 3px 3px 4px 1px rgba(0,0,0,0.42);
+    -moz-box-shadow: 3px 3px 4px 1px rgba(0,0,0,0.42);
+    box-shadow: 3px 3px 4px 1px rgba(0,0,0,0.42);
+}
+

@@ -1,0 +1,29 @@
+@import "~font-awesome/css/font-awesome.min.css";
+
+/*Css Reset*/
+
+input, select, body, h1, h2, h3, h4, h5, h6 {
+    border: none;
+    background: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+    /*My Style*/
+
+body {
+    background-color: #fefefe;
+    font-family: sans-serif;
+}
+
+input:focus, textarea:focus {
+    outline: none !important;
+}
+
+
+option {
+    background-color: #ebeced;
+    color: #37454d;
+}
+
+   

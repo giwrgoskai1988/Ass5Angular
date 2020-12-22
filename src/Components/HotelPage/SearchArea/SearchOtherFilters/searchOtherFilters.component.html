@@ -1,0 +1,61 @@
+<div class="third-row">
+
+    <div class="col first-col">
+        <div class="label">
+            <span>Price </span>
+            <span>max. {{minMax.max |currency : 'EUR' : 'symbol' : '1.0-0'}}</span>
+        </div>
+        <input type="range" name="changePrice" min="{{minMax.min}}" max="{{minMax.max}}"  [value]="minMax.max" />
+    </div>
+
+    <div class="col">
+        <div class="label">
+            Property Type
+        </div>
+        <select>
+            <option>⭐</option>
+            <option>⭐⭐</option>
+            <option>⭐⭐⭐</option>
+            <option>⭐⭐⭐⭐</option>
+            <option>⭐⭐⭐⭐⭐</option>
+        </select>
+    </div>
+
+    <div class="col">
+        <div class="label">
+            Guest Rating
+        </div>
+        <select>
+            <option>0 - 2 Okay</option>
+            <option>2 - 6 Fair</option>
+            <option>6 - 7 Good</option>
+            <option>7 - 8.5 Very Good</option>
+            <option>8.5 - 10 Exellent</option>
+        </select>
+    </div>
+
+
+    <div class="col">
+        <div class="label">
+            Hotel Location
+        </div>
+        <select>
+            <option>Paris</option>
+            <option>Marseille</option>
+            <option>Toulouse</option>
+            <option>Athens</option>
+        </select>
+    </div>
+
+    <div class="col">
+        <div class="label">
+            More Filters
+        </div>
+        <select>
+            <option>Bathroom</option>
+            <option>BedRoom</option>
+            <option>Beds</option>
+        </select>
+    </div>
+
+</div>
